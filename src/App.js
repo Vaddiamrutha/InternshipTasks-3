@@ -3,7 +3,7 @@ import "./App.css";
 
 class App extends Component {
   state = { count: 0 };
-
+  
   onChangeCount = (event) => {
     if (event.target.value.trim().length === 0) {
       this.setState({ count: 0 });
